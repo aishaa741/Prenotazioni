@@ -1,0 +1,6 @@
+<div *ngFor="let p of prenotazioni" 
+     class="riga-lista" 
+     [class.riga-selezionata]="p === selezionata"
+     (click)="onClick(p)">
+  {{p.data}} - {{p.ora}} -> {{p.nome}} {{p.cognome}}
+</div>
