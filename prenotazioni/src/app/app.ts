@@ -9,7 +9,8 @@ import { PrenotazioniService } from './prenotazioni';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, FormsModule, ListaPrenotazioniComponent, DettagliPrenotazioneComponent],
-  templateUrl: './app.html'
+  templateUrl: './app.html',
+  styleUrls: ['./app.css']   /* <-- AGGIUNGI QUESTA RIGA */
 })
 export class AppComponent implements OnInit {
   prenotazioni: Prenotazione[] = [];

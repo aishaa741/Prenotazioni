@@ -17,18 +17,16 @@
   </div>
 
   <p class="titolo-sezione">Lista prenotazioni</p>
-  <div class="box-giallo">
-    <app-lista-prenotazioni 
-      [prenotazioni]="prenotazioni" 
-      (seleziona)="prenotazioneSelezionata = $event">
-    </app-lista-prenotazioni>
-  </div>
+  
+  <app-lista-prenotazioni 
+    [prenotazioni]="prenotazioni" 
+    (seleziona)="prenotazioneSelezionata = $event">
+  </app-lista-prenotazioni>
 
   <p class="titolo-sezione">Dettagli prenotazione</p>
-  <div class="box-arancione">
-    <app-dettagli-prenotazione 
-      [prenotazione]="prenotazioneSelezionata">
-    </app-dettagli-prenotazione>
-  </div>
+  
+  <app-dettagli-prenotazione 
+    [prenotazione]="prenotazioneSelezionata">
+  </app-dettagli-prenotazione>
 
 </div>
