@@ -1,0 +1,9 @@
+.box-giallo {
+  background-color: #fffde7; 
+  border: 1px solid #fbc02d; 
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 80px;
+}
+.riga-lista { cursor: pointer; padding: 2px; }
+.riga-selezionata { background-color: yellow; }

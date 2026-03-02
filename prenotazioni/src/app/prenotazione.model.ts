@@ -1,5 +1,5 @@
+// Questo è il MODELLO. Dice ad Angular quali dati ci sono in una prenotazione.
 export interface Prenotazione {
-  id?: number;
   nome: string;
   cognome: string;
   indirizzo: string;
@@ -7,4 +7,5 @@ export interface Prenotazione {
   email: string;
   data: string;
   ora: string;
+  id?: number; // L'id lo mette il server da solo, per questo c'è il punto di domanda
 }

@@ -6,7 +6,8 @@ import { Prenotazione } from '../prenotazione.model';
   selector: 'app-dettagli-prenotazione',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './dettagli-prenotazione.html'
+  templateUrl: './dettagli-prenotazione.html',
+  styleUrls: ['./dettagli-prenotazione.css'] /* <-- AGGIUNGI QUESTA */
 })
 export class DettagliPrenotazioneComponent {
   @Input() prenotazione: Prenotazione | null = null;

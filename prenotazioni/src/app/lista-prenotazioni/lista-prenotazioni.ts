@@ -6,7 +6,8 @@ import { Prenotazione } from '../prenotazione.model';
   selector: 'app-lista-prenotazioni',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './lista-prenotazioni.html'
+  templateUrl: './lista-prenotazioni.html',
+  styleUrls: ['./lista-prenotazioni.css']  /* <-- AGGIUNGI QUESTA */
 })
 export class ListaPrenotazioniComponent {
   @Input() prenotazioni: Prenotazione[] = [];
